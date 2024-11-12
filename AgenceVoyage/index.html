@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agence de voyage</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1 href="index.html">Agence de voyage</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="banner">
+    <div class="banner-content">
+      <h2>Bienvenue chez notre agence de voyage</h2>
+      <p>Découvrez les plus belles destinations du monde avec nous</p>
+      <a href="#" class="btn">En savoir plus</a>
+    </div>
+  </section>
+
+  <section id="destinations">
+    <h2>Nos destinations populaires</h2>
+    <div class="destination">
+      <img src="d1.avif" alt="Destination 1">
+      <div class="destination-info">
+        <h3>Greece</h3>
+        <p>Voyagez vers cette destination paradisiaque et découvrez ses plages de sable fin, ses eaux turquoise et ses magnifiques couchers de soleil. Profitez d'une atmosphère relaxante, explorez les sites culturels et goûtez à la délicieuse cuisine locale.</p>
+      </div>
+    </div>
+    <div class="destination">
+      <img src="d2.avif" alt="Destination 2">
+      <div class="destination-info">
+        <h3>italy</h3>
+        <p>Embarquez pour une aventure inoubliable dans cette destination riche en histoire et en beauté naturelle. Explorez les anciens temples, admirez les paysages montagneux à couper le souffle et plongez dans une culture fascinante. Une expérience qui éveillera tous vos sens.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Nos services</h2>
+    <div class="service">
+      <img src="s1.avif" alt="Service 1">
+      <h3>Réservation de vols</h3>
+      <p>Notre service de réservation de vols offre une expérience de réservation fluide, vous permettant de trouver et réserver des vols vers vos destinations souhaitées en toute simplicité. Que vous planifiez un voyage d'affaires ou des vacances de rêve, nous proposons une large gamme d'options adaptées à vos préférences, garantissant un voyage agréable et sans souci.</p>
+    </div>
+    <div class="service">
+      <img src="s2.avif" alt="Service 2">
+      <h3>Réservation d'hôtels</h3>
+      <p>Avec notre service de réservation d'hôtels, trouver l'hébergement parfait pour votre séjour devient un jeu d'enfant. Nous offrons une vaste sélection d'hôtels, allant des options économiques aux complexes de luxe. Découvrez des chambres confortables, des équipements exceptionnels et un service clientèle de qualité, garantissant un séjour mémorable et reposant dans la destination de votre choix.</p>
+    </div>
+    <div class="service">
+      <img src="s3.avif" alt="Service 3">
+      <h3>Forfaits vacances</h3>
+      <p>Nos forfaits vacances sont soigneusement conçus pour vous offrir une expérience de voyage complète. Explorez des destinations époustouflantes et participez à des aventures inoubliables avec nos itinéraires pensés avec soin. Des vols et hébergements aux visites touristiques et activités, nos forfaits vacances offrent praticité, valeur ajoutée et l'opportunité de créer des souvenirs précieux.</p>
+    </div>
+    <div class="service">
+      <img src="s4.avif" alt="Service 4">
+      <h3>Visites guidées</h3>
+      <p>Partez pour des visites guidées captivantes afin de découvrir les trésors cachés et le riche patrimoine culturel des destinations de votre choix. Nos guides expérimentés vous conduiront à travers des sites historiques fascinants, des monuments emblématiques et des attractions locales, en vous fournissant des informations précieuses et en enrichissant votre expérience de voyage. Plongez dans la beauté et l'histoire de chaque lieu grâce à nos visites guidées soigneusement élaborées.</p>
+    </div>
+  </section>
+
+
+  <section id="testimonials">
+    <h2>Témoignages de nos clients</h2>
+    <div class="testimonial">
+      <img src="c1.avif" alt="Client 1">
+      <p>"J'ai passé des vacances incroyables grâce à l'agence de voyage. Leur service était exceptionnel et les destinations étaient tout simplement magnifiques!"</p>
+      <div class="rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+      </div>
+      <h4>Client 1</h4>
+    </div>
+
+    <div class="testimonial">
+      <img src="cl2.avif" alt="Client 2">
+      <p>"L'agence de voyage a rendu notre voyage sans tracas et mémorable. Leurs recommandations et leur soutien étaient excellents!"</p>
+      <div class="rating">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9734;</span>
+      </div>
+      <h4>Client 2</h4>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+    
+  
+
+  <footer>
+    <p>&copy; 2023 Agence de voyage. Tous droits réservés.</p>
+  </footer>
+
+  <!-- /*-------JavaScript-------*/ -->
+
+  <script>
+    
+function handleSubmit(event) {
+  event.preventDefault();
+
+  document.getElementById("contact-form").reset();
+
+  alert("Form submitted successfully!");
+}
+
+var contactForm = document.getElementById("contact-form");
+contactForm.addEventListener("submit", handleSubmit);
+
+
+  </script>
+
+</body>
+</html>
